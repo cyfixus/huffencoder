@@ -32,9 +32,8 @@ assigned as the Node->freq.
    following each bit along the tree until it reaches a leaf. The leaf is written to file
    and the iteration returns to the root. 
 
-5. I am having trouble writing the last byte while encoding. I've spent probably 40 hours
-   the past two weeks trying to figure out this calculation. I can get it to work for one
-   file, at most two, but small isn't graded =( I've tried using the byteCount, codeLength
+5. I am having trouble writing the last byte while encoding. I can get it to work for one
+   file, at most two. I've tried using the byteCount, codeLength
    every single one of those variables in some sort or fashion.  I'm fairly certain I need
    to extract the exact number of remaining bits, by the position from the byteCount
    and codeCount but I can't figure out the parameters or how to quantize/standardize(what
